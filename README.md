@@ -4,7 +4,7 @@
  <a href="#descricao">Descrição do Projeto</a> •
  <a href="#objetivo">Objetivo</a> •
  <a href="#comousar">Como usar</a>  • 
- <a href="#teoria">Fundamentação Teórica</a> •  
+ <a href="#teoria">Metodologia</a> •  
  <a href="#referencias">Referências</a>
 </p>
 
@@ -54,7 +54,7 @@ O projeto é dividido em <b>4 arquivos principais</b>. <br>
 Durante todo o procedimento de estimação e simulação são gerados tabelas, relatórios e gráficos, que são salvos em pastas específicas para cada modelo, nomeadas <i>Modelo1</i>, <i>Modelo2</i>, e assim por diante.
 
 
-<h2 id="teoria"> ⚗️ Fundamentação Teórica </h2>
+<h2 id="teoria"> ⚗️ Metodologia </h2>
 
 ### Rota Reacional
 
@@ -87,12 +87,15 @@ O procedimento de estimação de parâmetros procedeu-se de forma a minimizar o 
 que representa a distância entre os dados experimentais e as previsões do modelo.
 Para a otimização da função, utilizou-se o método heurístico de Enxame de Partículas definindo uma região de busca, seguido do método de busca direta de Nelder Mead.
 
+<!-- 
 <p align="center">
 <img src="https://bit.ly/3E3ImSR" align="center" border="0" alt="F_{obj} = \sum_n^{NE}\sum_i^{NY}\:\frac{{ (y^{calc}_{n,i} - y^{exp}_{n,i} ) }^2}{w_{n,i}^2}" width="226" height="62" />
 </p>
 
 Em que y<sup>calc</sup> é a variável dependente calculada pelo modelo, y<sup>exp</sup> é o dado experimental, w é o fator de ponderação, 
 NE é o número de experimentos e NY é o número de variáveis dependentes.
+
+-->
 
 Para a análise estatística dos parâmetros, utilizou-se o método da Região de Verossimilhança com um nível de confiança de 95%
 para construir os intervalos de confiança; a correlação de Pearson para avaliar a predição de cada variável dependente; e a correlação paramétrica
