@@ -5,7 +5,6 @@
  <a href="#objetivo">Objetivo</a> •
  <a href="#comousar">Como usar</a>  • 
  <a href="#teoria">Fundamentação Teórica</a> •  
- <a href="#resultados">Resultados</a> •  
  <a href="#referencias">Referências</a>
 </p>
 
@@ -98,12 +97,6 @@ NE é o número de experimentos e NY é o número de variáveis dependentes.
 Para a análise estatística dos parâmetros, utilizou-se o método da Região de Verossimilhança com um nível de confiança de 95%
 para construir os intervalos de confiança; a correlação de Pearson para avaliar a predição de cada variável dependente; e a correlação paramétrica
 entre cada par de parâmetro.
-
-<h2 id="descricao"> :chart_with_upwards_trend: Resultados </h2>
-
-### Arquivos Gerados
-
-### Exemplos de Gráficos
 
 <h2 id="referencias"> 📜 Referências </h2>
 
