@@ -45,7 +45,7 @@ Eley-Rideal e de Langmuir-Hinshelwood foram avaliados, considerando diferentes h
 <li> <b> Modelo 5 (LH-NC-ND):</b> Modelo de Langmuir-Hinshelwood considerando adsorção não-competitiva entre ácido esteárico e hidrogênio não-dissociado.</li>
 </ul>
 
-### Estimação dos parâmetros
+### Estimação dos Parâmetros
 
 <p>
 O procedimento de estimação de parâmetros procedeu-se de forma a minimizar o função objetivo de mínimos quadrados ponderados, 
