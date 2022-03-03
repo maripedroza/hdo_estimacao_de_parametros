@@ -9,7 +9,7 @@
 <h2 id="descricao"> :bookmark: Descrição do Projeto </h2>
 
 <p> 
-Este projeto foi desenvolvido para o Trabalho de Conclusão de Curso da graduação em Engenharia Química na Universidade Federal do Rio de Janeiro (UFRJ). Tem como objetivo proceder a estimação de parâmetros cinéticos das reações de hidrodesoxigenação (HDO) de ácido esteárico para produção de diesel verde e a posterior simulação do processo, 
+Este projeto foi desenvolvido para o Trabalho de Conclusão de Curso da graduação em Engenharia Química na Universidade Federal do Rio de Janeiro (UFRJ). Tem como objetivo estimar os parâmetros cinéticos das reações de hidrodesoxigenação (HDO) de ácido esteárico para posterior simulação do processo de produção de diesel verde, 
 podendo ser facilmente adaptado para estudar outros modelos ou processos semelhantes. 
 </p>
 
@@ -63,15 +63,7 @@ entre cada par de parâmetro.
 
 <p>
 Todos os algoritmos foram desenvolvidos em linguagem <b>Python</b>. Além de algumas bibliotecas padrões da distribuição <a href="https://www.anaconda.com/products/individual">Anaconda</a>, 
-também são utilizados os pacotes <a href="https://pythonhosted.org/pyswarm/">pyswarm</a> e <a href="https://pypi.org/project/numdifftools/">numdifftools</a>, 
-que podem ser instalados via script da seguinte maneira: 
-</p>
-
-```python
-import subprocess
-subprocess.call(['pip','install','pyswarm'])
-subprocess.call(['pip','install','numdifftools'])
-```
+também são utilizados os pacotes <a href="https://pythonhosted.org/pyswarm/">pyswarm</a> e <a href="https://pypi.org/project/numdifftools/">numdifftools</a>.
 
 O projeto é dividido em <b>4 arquivos principais</b>. <br>
 <ol>
