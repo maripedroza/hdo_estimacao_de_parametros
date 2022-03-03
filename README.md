@@ -77,8 +77,7 @@ O projeto é dividido em <b>4 arquivos principais</b>. <br>
   </li>
 
   <li> O script <i>modelos.py</i>, também localizado no diretório <i>HDO_AE</i>, apresenta toda a modelagem cinética do processo. No contexto do trabalho, 
-  foram estudados 5 modelos distintos a serem apresentados mais a frente na seção <a href="#teoria">Fundamentação Teórica</a>. 
-  O usuário deve fazer as modificações matemáticas necessárias para avaliar outros modelos ou processos.
+  foram estudados 5 modelos distintos apresentados anteriormente. O usuário deve fazer as modificações matemáticas necessárias para avaliar outros modelos ou processos.
   </li>
   
   <li> O script <i>variaveis.py</i>, que assim como os dois arquivos anteriores deve estar na pasta <i>HDO_AE</i>, é onde o usuário define as variáveis do modelo estudado, 
